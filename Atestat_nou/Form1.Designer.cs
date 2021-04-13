@@ -41,9 +41,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(411, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(569, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(383, 222);
+            this.pictureBox1.Size = new System.Drawing.Size(456, 279);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -53,7 +53,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(503, 285);
+            this.button1.Location = new System.Drawing.Point(702, 326);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(181, 68);
             this.button1.TabIndex = 1;
@@ -64,35 +64,41 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(503, 411);
+            this.button2.Location = new System.Drawing.Point(702, 452);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(181, 68);
             this.button2.TabIndex = 2;
             this.button2.Text = "Mari campioni";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(503, 535);
+            this.button3.Location = new System.Drawing.Point(702, 574);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(181, 68);
             this.button3.TabIndex = 3;
             this.button3.Text = "Ruta 2021";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(503, 657);
+            this.button4.Location = new System.Drawing.Point(702, 699);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(181, 68);
             this.button4.TabIndex = 4;
             this.button4.Text = "Quiz";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
@@ -100,7 +106,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1202, 803);
+            this.ClientSize = new System.Drawing.Size(1582, 853);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -108,8 +114,9 @@
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
-            this.TransparencyKey = System.Drawing.Color.Black;
+            this.TransparencyKey = System.Drawing.Color.LimeGreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
