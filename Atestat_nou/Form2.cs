@@ -16,5 +16,16 @@ namespace Atestat_nou
         {
             InitializeComponent();
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            richTextBox1.SelectAll();
+            richTextBox1.SelectionAlignment = HorizontalAlignment.Right;
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
