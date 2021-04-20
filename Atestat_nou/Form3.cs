@@ -24,7 +24,7 @@ namespace Atestat_nou
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form6 f6=new Form6();
+            Form6 f6=new Form6();//comparatie
             f6.ShowDialog();
         }
     }

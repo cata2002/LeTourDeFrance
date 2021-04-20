@@ -19,12 +19,13 @@ namespace Atestat_nou
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            richTextBox1.SelectAll();
-            richTextBox1.SelectionAlignment = HorizontalAlignment.Right;
+            richTextBox1.LoadFile("tour.rtf");
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            richTextBox1.LoadFile("tour.rtf");
+            richTextBox2.LoadFile("format.rtf");
 
         }
     }
