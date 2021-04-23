@@ -28,5 +28,11 @@ namespace Atestat_nou
             richTextBox2.LoadFile("format.rtf");
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form10 f10 = new Form10();
+            f10.ShowDialog();
+        }
     }
 }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Atestat_nou
 {
-    public partial class Form6 : Form
+    public partial class Form10 : Form
     {
-        public Form6()
+        public Form10()
         {
             InitializeComponent();
-        }
-
-        private void Form6_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

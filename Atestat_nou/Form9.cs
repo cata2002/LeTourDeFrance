@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Atestat_nou
 {
-    public partial class Form6 : Form
+    public partial class Form9 : Form
     {
-        public Form6()
+        public Form9()
         {
             InitializeComponent();
         }
 
-        private void Form6_Load(object sender, EventArgs e)
+        private void Form9_Load(object sender, EventArgs e)
         {
-
+            webBrowser1.ScriptErrorsSuppressed = true;
         }
     }
 }
