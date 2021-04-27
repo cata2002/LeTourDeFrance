@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Atestat_nou
 {
+    
     public partial class Form1 : Form
     {
         public Form1()
@@ -39,6 +40,11 @@ namespace Atestat_nou
         {
             Form5 f5 = new Form5(); //quiz
             f5.ShowDialog(); 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

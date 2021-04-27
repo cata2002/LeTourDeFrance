@@ -117,7 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="webBrowser1.Url" xml:space="preserve">
-    <value>https://www.google.com/maps/dir/Sorgues,+Fran%C5%A3a/Mont+Ventoux,+Brantes,+Fran%C5%A3a/Malauc%C3%A8ne,+Fran%C5%A3a/@44.0920974,4.936553,11z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x12b592c1f220a219:0xcf43c973b1e49f2b!2m2!1d4.872757!2d44.008767!1m5!1m1!1s0x12ca645aaf6f7367:0xd3f24ac5c0a1bcd!2m2!1d5.2786797!2d44.1740851!1m5!1m1!1s0x12ca7982c9c1396f:0x3dc142606e1527c4!2m2!1d5.1320499!2d44.17444!3e1</value>
-  </data>
 </root>
