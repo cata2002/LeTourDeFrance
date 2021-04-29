@@ -49,5 +49,10 @@ namespace Atestat_nou
             else MessageBox.Show("Scorul tău este " + nota.ToString() + " puncte. Mai citește!");
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
